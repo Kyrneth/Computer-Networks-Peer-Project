@@ -3,6 +3,7 @@ import sys
 import random
 
 def syn_flood(target_ip, target_port, num_packets):
+    
     """
     WARNING: Only use in isolated environments!
     """
@@ -41,4 +42,5 @@ if __name__ == "__main__":
     target_port = 80
     num_packets = 600
     
+
     syn_flood(target_ip, target_port, num_packets)
